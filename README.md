@@ -4,17 +4,17 @@
 
 > A technical test project, the goal is to create a pixel-perfect copy of Trello with Next.js & MUI.
 
-## Disclaimers
+## ❗ Disclaimers
 
 > [!WARNING]  
-> Everything is supposed to look exactly identical to the original app, except for animations & transitions were I left the default Material UI settings to give a MUI feel to the final app in order to match with the subject requirement to use MUI.
+> Everything is supposed to look exactly identical to the original app, except for animations & transitions where I left the default Material UI settings to give a MUI feel to the final app in order to match with the subject requirement to use MUI.
 
 ## ⚡ How to run
 
 ### Run a dev build locally
 
 > [!TIP]
-> NVM and Yarn are used in this examples, you can easily adapt to your own tools if you need to.
+> NVM and Yarn are used in this example, you can easily adapt to your own tools if you need to.
 
 Requirements: Git, NVM, Node.js & Yarn.
 
@@ -35,8 +35,8 @@ A hosted version is available at [ferway-e6a7b.web.app](https://ferway-e6a7b.web
 
 ### Dificulties
 
-- Trying to pixel perfect match the original app using as most MUI native components as I could was no easy task.
-- Scavenging the original app ressources took me longer than expected, especially icons.
+- Trying to pixel perfect match the original app using as many MUI native components as I could was no easy task.
+- Scavenging the original app resources took me longer than expected, especially icons.
 
 ### Achievements
 
