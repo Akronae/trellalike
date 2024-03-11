@@ -1,0 +1,31 @@
+.icon-more-horiz {
+  background-color: rgb(97, 97, 97);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -1.5px;
+  margin-left: -1.5px;
+  height: 2.5px;
+  width: 2.5px;
+}
+
+.icon-more-horiz::before {
+  content: "";
+  background-color: rgb(97, 97, 97);
+  border-radius: 50%;
+  position: absolute;
+  left: -6px;
+  height: 2.5px;
+  width: 2.5px;
+}
+
+.icon-more-horiz::after {
+  content: "";
+  background-color: rgb(97, 97, 97);
+  border-radius: 50%;
+  position: absolute;
+  right: -6px;
+  height: 2.5px;
+  width: 2.5px;
+}

@@ -1,0 +1,16 @@
+@import '../icons.css';
+
+.icon-eye {
+  font-family: trellicons;
+  color: #919191;
+  font-size: 16px;
+  line-height: 16px;
+  margin: 4px;
+  margin-top: 0;
+  padding-bottom: 1px;
+}
+.icon-eye::before {
+  content: "\e95f";
+}
+
+

@@ -1,0 +1,62 @@
+@import '../icons.css';
+
+.icon-plus {
+  margin-right: 4px;
+  position: relative;
+  height: 20px;
+  width: 20px;
+}
+.icon-plus.lg {
+  height: 32px;
+  width: 32px;
+}
+
+.icon-plus::before {
+  content: "";
+  background-color: #616161;
+  height: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: background 85ms ease-in 0s;
+  width: 2px;
+}
+.icon-plus.light::before {
+  background-color: #919191;
+}
+.icon-plus:hover:before {
+  background-color: #313131;
+}
+.icon-plus.lg::before {
+  height: 15px;
+  width: 2px;
+}
+.icon-plus.white::before {
+  background-color: #fff;
+}
+
+.icon-plus::after {
+  content: "";
+  background-color: #616161;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: background 85ms ease-in 0s;
+  width: 12px;
+}
+.icon-plus.light::after {
+  background-color: #919191;
+}
+.icon-plus:hover:after {
+  background-color: #313131;
+}
+.icon-plus.lg::after {
+  height: 2px;
+  width: 15px;
+}
+.icon-plus.white::after {
+  background-color: #fff;
+}

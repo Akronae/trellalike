@@ -1,0 +1,13 @@
+@import '../icons.css';
+
+.icon-check {
+  font-family: trellicons;
+  color: white;
+  font-size: 18px;
+  line-height: 18px;
+}
+.icon-check::before {
+  content: "\e913";
+}
+
+
