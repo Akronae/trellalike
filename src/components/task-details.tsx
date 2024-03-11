@@ -108,7 +108,7 @@ export function TaskDetails(props: TaskDetailsProps) {
           <Box display={"flex"} flexDirection={"row"} gap={"20px"}>
             <Box flex={1}>
               <Header>Description</Header>
-              {mode === "view" && !taskContent && (
+              {mode === "view" && !task.content && (
                 <Button
                   color="secondary"
                   variant="contained"
@@ -134,7 +134,7 @@ export function TaskDetails(props: TaskDetailsProps) {
                   </span>
                 </Button>
               )}
-              {mode === "view" && taskContent && (
+              {mode === "view" && task.content && (
                 <Typography
                   variant="body2"
                   sx={{
@@ -146,7 +146,7 @@ export function TaskDetails(props: TaskDetailsProps) {
                   }}
                   onClick={() => setMode("edit")}
                 >
-                  {taskContent}
+                  {task.content}
                 </Typography>
               )}
               {mode == "edit" && (
